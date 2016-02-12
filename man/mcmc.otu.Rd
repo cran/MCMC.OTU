@@ -12,7 +12,7 @@ The maximum number of variables that can be processed on a laptop computer is ab
 more memory is required for larger numbers.
 }
 \usage{
-mcmc.otu(fixed, random=NULL, data, y.scale="proportion", 
+mcmc.otu(fixed=NULL, random=NULL, data, y.scale="proportion", 
 globalMainEffects="remove", vprior="uninf",...)
 }
 \arguments{

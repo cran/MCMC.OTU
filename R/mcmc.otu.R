@@ -1,5 +1,5 @@
 mcmc.otu <-
-function(fixed,random=NULL,data,y.scale="proportion",globalMainEffects="remove",vprior="uninf",...) {
+function(fixed=NULL,random=NULL,data,y.scale="proportion",globalMainEffects="remove",vprior="uninf",...) {
 	if (globalMainEffects=="keep") { 
 		data=data[data$otu!="summ",] 
 		data$otu=factor(data$otu,levels=unique(data$otu))

@@ -3,30 +3,28 @@
 \alias{MCMC.OTU}
 \docType{package}
 \title{
-Bayesian analysis of metabarcoding counts data
+Bayesian analysis of multivariate counts data in DNA metabarcoding and ecology.
 }
 \description{
-This package implements generalized linear mixed model analysis of metabarcoding counts data using MCMC. By default, it is assumed that variation in total counts per sample reflects sequencing effort and is not biologically relevant. The results are summarized and plotted using ggplot2 functions.
+This package enables MCMC-based generalized linear mixed model analysis of multivariate counts data, such as common in DNA metabarcoding and community ecology. The results are summarized and plotted using ggplot2 functions.
 }
 \details{
 \tabular{ll}{
 Package: \tab MCMC.OTU\cr
 Type: \tab Package\cr
-Version: \tab 1.0.8\cr
-Date: \tab 2014-04-27\cr
+Version: \tab 1.0.10\cr
+Date: \tab 2016-02-10\cr
 License: \tab GPL-3\cr
 }
 At the moment, the package handles experimental design with a single multilevel
 fixed factor or two fully crossed multilevel fixed factors. Any number of scalar (OTU-specific)
-random factors (i.e. blocking factors) are allowed. See example below. 
-
-See help for the core function mcmc.otu() for more details. 
+random factors (i.e. blocking factors) are allowed. By default, it is assumed that variation in total counts per sample is not biologically relevant (refects sequencing or survey effort). See help for the core function mcmc.otu() for more details. 
 }
 \author{
 Mikhail V. Matz <matz@utexas.edu>
 }
 \references{
-Elizabeth A. Green, Sarah W. Davies, Mikhail V. Matz, Monica Medina Next-generation sequencing reveals cryptic Symbiodinium diversity within Orbicella faveolata and Orbicella franksi at the Flower Garden Banks, Gulf of Mexico. PeerJ 2014 https://peerj.com/preprints/246/ 
+Elizabeth A. Green, Sarah W. Davies, Mikhail V. Matz, Monica Medina Quantifying cryptic Symbiodinium diversity within Orbicella faveolata and Orbicella franksi at the Flower Garden Banks, Gulf of Mexico. PeerJ 2014 2:e386 https://peerj.com/articles/386/
 }
 \examples{
 
